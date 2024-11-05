@@ -2541,7 +2541,7 @@
 			(pin bidirectional line
 				(at 12.7 -5.08 180)
 				(length 2.54)
-				(name "Q/D5"
+				(name "~{SRCLR}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2559,7 +2559,7 @@
 			(pin bidirectional line
 				(at 12.7 -2.54 180)
 				(length 2.54)
-				(name "Q/D6"
+				(name "SRCLK"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2577,7 +2577,7 @@
 			(pin bidirectional line
 				(at 12.7 0 180)
 				(length 2.54)
-				(name "Q/D7"
+				(name "RCLK"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2595,7 +2595,7 @@
 			(pin bidirectional line
 				(at 12.7 2.54 180)
 				(length 2.54)
-				(name "-{(OE)}"
+				(name "~{OE}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2793,7 +2793,7 @@
 			(pin bidirectional line
 				(at 12.7 -7.62 180)
 				(length 2.54)
-				(name "Q/D4"
+				(name "QH'"
 					(effects
 						(font
 							(size 1.27 1.27)
