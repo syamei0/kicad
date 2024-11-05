@@ -2684,6 +2684,130 @@
 				)
 			)
 		)
+		(symbol "Device:Speaker"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LS"
+				(at 1.27 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "Speaker"
+				(at 1.27 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at -0.254 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Speaker"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "speaker sound"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Speaker_0_0"
+				(rectangle
+					(start -2.54 1.27)
+					(end 1.016 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 1.27) (xy 3.556 3.81) (xy 3.556 -6.35) (xy 1.016 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Speaker_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Regulator_Switching:R-78B1.2-2.0"
 			(pin_names
 				(offset 0.254)
@@ -4413,6 +4537,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 140.97) (xy 127 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8781ecca-f2e8-4277-9190-00b31c5631b0")
+	)
+	(wire
+		(pts
 			(xy 151.13 87.63) (xy 151.13 92.71)
 		)
 		(stroke
@@ -4690,6 +4824,16 @@
 			(type default)
 		)
 		(uuid "c776546b-389c-4ea8-a2fb-e205f6c4f989")
+	)
+	(wire
+		(pts
+			(xy 134.62 140.97) (xy 156.21 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9587545-de14-4d5f-8778-ffd76437df4a")
 	)
 	(wire
 		(pts
@@ -5451,6 +5595,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IO13"
+		(shape bidirectional)
+		(at 156.21 140.97 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2f5fc17d-5f71-4956-ab77-da42eef10b3a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 164.6608 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -7365,7 +7531,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "FT234X(Serial Converter)"
+		(property "Value" "FT234X"
 			(at 238.76 127.762 0)
 			(effects
 				(font
@@ -7440,7 +7606,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_DPST_x2"
+		(property "Value" "EN"
 			(at 123.19 184.15 0)
 			(effects
 				(font
@@ -8340,6 +8506,73 @@
 			(project "ESP32_SMD"
 				(path "/16d7c20d-89b8-473d-a0a1-bcb2e2ab28b6"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 110.49 143.51 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "31e848ac-4ede-485b-902d-4aa29f739750")
+		(property "Reference" "#PWR022"
+			(at 116.84 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 114.3 143.5099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 110.49 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "386e03dc-7875-4ff7-8184-634c8814dd0d")
+		)
+		(instances
+			(project ""
+				(path "/16d7c20d-89b8-473d-a0a1-bcb2e2ab28b6"
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -10707,6 +10940,74 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 130.81 140.97 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "763bde6b-f21d-49b3-b986-a0afe8f68322")
+		(property "Reference" "R30"
+			(at 130.81 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100Ω~1kΩ"
+			(at 130.81 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 130.81 142.748 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 130.81 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 130.81 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ea66831a-9be7-4d57-b6fd-25c44eb41595")
+		)
+		(pin "1"
+			(uuid "9870be45-6b4f-4fa9-8f4d-4178cb3583a5")
+		)
+		(instances
+			(project "ESP32_SMD"
+				(path "/16d7c20d-89b8-473d-a0a1-bcb2e2ab28b6"
+					(reference "R30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 232.41 49.53 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10790,7 +11091,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_DPST_x2"
+		(property "Value" "BOOT"
 			(at 158.75 185.42 0)
 			(effects
 				(font
@@ -10967,13 +11268,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "373b00c8-63eb-4ef8-8c8c-fb734bdb9469")
+			(uuid "373b00c8-63eb-4ef8-8c8c-fb734bdb946a")
 		)
 		(pin "1"
-			(uuid "664c46e0-5298-4489-9e3b-63b0d28f1d04")
+			(uuid "664c46e0-5298-4489-9e3b-63b0d28f1d05")
 		)
 		(pin "3"
-			(uuid "72643603-4780-436a-94e7-244e34d61859")
+			(uuid "72643603-4780-436a-94e7-244e34d6185a")
 		)
 		(instances
 			(project ""
@@ -11105,13 +11406,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "373b00c8-63eb-4ef8-8c8c-fb734bdb9469")
+			(uuid "373b00c8-63eb-4ef8-8c8c-fb734bdb946b")
 		)
 		(pin "1"
-			(uuid "664c46e0-5298-4489-9e3b-63b0d28f1d04")
+			(uuid "664c46e0-5298-4489-9e3b-63b0d28f1d06")
 		)
 		(pin "3"
-			(uuid "72643603-4780-436a-94e7-244e34d61859")
+			(uuid "72643603-4780-436a-94e7-244e34d6185b")
 		)
 		(instances
 			(project ""
@@ -13758,13 +14059,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "373b00c8-63eb-4ef8-8c8c-fb734bdb9469")
+			(uuid "373b00c8-63eb-4ef8-8c8c-fb734bdb946c")
 		)
 		(pin "1"
-			(uuid "664c46e0-5298-4489-9e3b-63b0d28f1d04")
+			(uuid "664c46e0-5298-4489-9e3b-63b0d28f1d07")
 		)
 		(pin "3"
-			(uuid "72643603-4780-436a-94e7-244e34d61859")
+			(uuid "72643603-4780-436a-94e7-244e34d6185c")
 		)
 		(instances
 			(project ""
@@ -15133,6 +15434,74 @@
 			(project ""
 				(path "/16d7c20d-89b8-473d-a0a1-bcb2e2ab28b6"
 					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Speaker")
+		(at 105.41 143.51 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f28b65a0-8295-451c-8dbb-2074c0f6d936")
+		(property "Reference" "LS1"
+			(at 104.902 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PKM13EPYH4000-A0"
+			(at 104.902 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "00a:PKM13EPYH4000-A0"
+			(at 105.41 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.664 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Speaker"
+			(at 105.41 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "130bc2ae-7303-48de-9a24-3d414d7b2e13")
+		)
+		(pin "1"
+			(uuid "c583f4c4-1a1a-4980-bd87-7cfec6dbe6d9")
+		)
+		(instances
+			(project ""
+				(path "/16d7c20d-89b8-473d-a0a1-bcb2e2ab28b6"
+					(reference "LS1")
 					(unit 1)
 				)
 			)

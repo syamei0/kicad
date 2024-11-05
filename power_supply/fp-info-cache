@@ -1,4 +1,4 @@
-23755617018538448
+23757365612937359
 00a
 1MS1-T1-B1-M1-Q-N-S
 
@@ -14,12 +14,33 @@
 0
 0
 00a
+DTS-63-N-V
+
+
+0
+4
+2
+00a
+ESP32-WROOM-32E
+2.4 GHz Wi­-Fi and Bluetooth 5 (LE) module: https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32e_esp32-wroom-32ue_datasheet_en.pdf
+Bluetooth WiFi Wi-Fi ESP32 WROOM Xtensa LX6
+0
+59
+39
+00a
 MARC_rogo
 
 
 0
 0
 0
+00a
+RXEF005
+
+
+0
+2
+2
 00a
 hole_M3
 
@@ -96669,17 +96690,3 @@ Varistor VF
 0
 2
 2
-footprints
-3557-15_KEY
-
-3557-15 
-0
-4
-4
-liblaly
-MODULE_ESP32-DEVKITC-32E
-
-
-0
-38
-38
