@@ -1,4 +1,4 @@
-23757365612937359
+23769485413272449
 00a
 1MS1-T1-B1-M1-Q-N-S
 
@@ -6,6 +6,13 @@
 0
 3
 3
+00a
+953-1C-12DG-1
+
+
+0
+5
+5
 00a
 3557-15
 
@@ -25,8 +32,15 @@ ESP32-WROOM-32E
 2.4 GHz Wi­-Fi and Bluetooth 5 (LE) module: https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32e_esp32-wroom-32ue_datasheet_en.pdf
 Bluetooth WiFi Wi-Fi ESP32 WROOM Xtensa LX6
 0
-59
+55
 39
+00a
+KSD42
+
+
+0
+8
+8
 00a
 MARC_rogo
 
@@ -35,12 +49,47 @@ MARC_rogo
 0
 0
 00a
+MF-R050
+
+
+0
+2
+2
+00a
+NJM2845DL1-33
+
+
+0
+0
+0
+00a
+PKM13EPYH4000-A0
+
+
+0
+2
+2
+00a
 RXEF005
 
 
 0
 2
 2
+00a
+TO-252-3_TabPin2
+TO-252/DPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO252/PG-TO252-3-1/
+DPAK TO-252 DPAK-3 TO-252-3 SOT-428
+0
+9
+3
+00a
+Y14H-1C-5DS
+
+
+0
+6
+6
 00a
 hole_M3
 
