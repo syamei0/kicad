@@ -4037,6 +4037,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 187.96) (xy 63.5 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1881c1be-d945-4c26-a3fd-d474909bc00b")
+	)
+	(wire
+		(pts
 			(xy 148.59 59.69) (xy 170.18 59.69)
 		)
 		(stroke
@@ -4617,7 +4627,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 190.5) (xy 40.64 190.5)
+			(xy 27.94 190.5) (xy 50.8 190.5)
 		)
 		(stroke
 			(width 0)
@@ -4777,6 +4787,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 187.96) (xy 73.66 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bacf0696-076f-4458-8fdd-6208ea92cc81")
+	)
+	(wire
+		(pts
 			(xy 250.19 68.58) (xy 250.19 73.66)
 		)
 		(stroke
@@ -4904,16 +4924,6 @@
 			(type default)
 		)
 		(uuid "d167cafc-4df3-404a-bd7f-5f27339c680e")
-	)
-	(wire
-		(pts
-			(xy 48.26 190.5) (xy 55.88 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d20b5a25-604f-4437-9803-d76a92ad7182")
 	)
 	(wire
 		(pts
@@ -5067,17 +5077,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 185.42) (xy 55.88 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f92a09bd-002a-4f13-b53c-5a792b6602bf")
-	)
-	(wire
-		(pts
-			(xy 30.48 185.42) (xy 40.64 185.42)
+			(xy 30.48 185.42) (xy 50.8 185.42)
 		)
 		(stroke
 			(width 0)
@@ -7883,7 +7883,7 @@
 				)
 			)
 		)
-		(property "Value" "240Ω"
+		(property "Value" "1kΩ"
 			(at 273.05 55.118 90)
 			(effects
 				(font
@@ -8017,7 +8017,7 @@
 				)
 			)
 		)
-		(property "Value" "240Ω"
+		(property "Value" "1kΩ"
 			(at 273.05 76.708 90)
 			(effects
 				(font
@@ -8153,7 +8153,7 @@
 				)
 			)
 		)
-		(property "Value" "240Ω"
+		(property "Value" "1kΩ"
 			(at 273.05 20.828 90)
 			(effects
 				(font
@@ -8650,7 +8650,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 66.04 187.96 270)
+		(at 73.66 187.96 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8659,7 +8659,7 @@
 		(fields_autoplaced yes)
 		(uuid "32e3c1e3-d788-4053-ba01-5680f8136cca")
 		(property "Reference" "#PWR05"
-			(at 62.23 187.96 0)
+			(at 69.85 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8668,7 +8668,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 69.85 187.9599 90)
+			(at 77.47 187.9599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8677,7 +8677,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 66.04 187.96 0)
+			(at 73.66 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8686,7 +8686,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 187.96 0)
+			(at 73.66 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8695,7 +8695,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 66.04 187.96 0)
+			(at 73.66 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9006,7 +9006,7 @@
 				)
 			)
 		)
-		(property "Value" "240Ω"
+		(property "Value" "1kΩ"
 			(at 232.41 53.848 90)
 			(effects
 				(font
@@ -9209,7 +9209,7 @@
 				)
 			)
 		)
-		(property "Value" "240Ω"
+		(property "Value" "1kΩ"
 			(at 232.41 88.138 90)
 			(effects
 				(font
@@ -9480,7 +9480,7 @@
 				)
 			)
 		)
-		(property "Value" "240Ω"
+		(property "Value" "1kΩ"
 			(at 232.41 22.098 90)
 			(effects
 				(font
@@ -9547,7 +9547,7 @@
 				)
 			)
 		)
-		(property "Value" "240Ω"
+		(property "Value" "1kΩ"
 			(at 273.05 105.918 90)
 			(effects
 				(font
@@ -9614,7 +9614,7 @@
 				)
 			)
 		)
-		(property "Value" "240Ω"
+		(property "Value" "1kΩ"
 			(at 273.05 33.528 90)
 			(effects
 				(font
@@ -9859,74 +9859,6 @@
 			(project "ESP32_SMD"
 				(path "/16d7c20d-89b8-473d-a0a1-bcb2e2ab28b6"
 					(reference "D7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Polyfuse")
-		(at 44.45 190.5 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "59569414-2b23-4eff-bf5c-d5e3134cf9a8")
-		(property "Reference" "F3"
-			(at 44.45 192.786 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MF-R050"
-			(at 44.45 195.072 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "00a:MF-R050"
-			(at 50.546 190.246 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 44.45 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
-			(at 44.45 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "80511fce-014f-46f8-879f-ad6c92c54086")
-		)
-		(pin "2"
-			(uuid "f17703ab-93fe-4f3f-8237-4e8859634f15")
-		)
-		(instances
-			(project "ESP32_SMD"
-				(path "/16d7c20d-89b8-473d-a0a1-bcb2e2ab28b6"
-					(reference "F3")
 					(unit 1)
 				)
 			)
@@ -10286,7 +10218,7 @@
 				)
 			)
 		)
-		(property "Value" "240Ω"
+		(property "Value" "1kΩ"
 			(at 273.05 69.088 90)
 			(effects
 				(font
@@ -10353,7 +10285,7 @@
 				)
 			)
 		)
-		(property "Value" "240Ω"
+		(property "Value" "1kΩ"
 			(at 273.05 84.328 90)
 			(effects
 				(font
@@ -10420,7 +10352,7 @@
 				)
 			)
 		)
-		(property "Value" "240Ω"
+		(property "Value" "1kΩ"
 			(at 232.41 75.438 90)
 			(effects
 				(font
@@ -10553,7 +10485,7 @@
 				)
 			)
 		)
-		(property "Value" "240Ω"
+		(property "Value" "1kΩ"
 			(at 273.05 91.948 90)
 			(effects
 				(font
@@ -10687,7 +10619,7 @@
 				)
 			)
 		)
-		(property "Value" "240Ω"
+		(property "Value" "1kΩ"
 			(at 273.05 99.568 90)
 			(effects
 				(font
@@ -10754,7 +10686,7 @@
 				)
 			)
 		)
-		(property "Value" "240Ω"
+		(property "Value" "1kΩ"
 			(at 273.05 61.468 90)
 			(effects
 				(font
@@ -11023,7 +10955,7 @@
 				)
 			)
 		)
-		(property "Value" "240Ω"
+		(property "Value" "1kΩ"
 			(at 232.41 47.498 90)
 			(effects
 				(font
@@ -11302,7 +11234,7 @@
 				)
 			)
 		)
-		(property "Value" "240Ω"
+		(property "Value" "1kΩ"
 			(at 232.41 34.798 90)
 			(effects
 				(font
@@ -11440,7 +11372,7 @@
 				)
 			)
 		)
-		(property "Value" "240Ω"
+		(property "Value" "1kΩ"
 			(at 232.41 41.148 90)
 			(effects
 				(font
@@ -11710,7 +11642,7 @@
 				)
 			)
 		)
-		(property "Value" "240Ω"
+		(property "Value" "1kΩ"
 			(at 273.05 113.538 90)
 			(effects
 				(font
@@ -12181,7 +12113,7 @@
 				)
 			)
 		)
-		(property "Value" "240Ω"
+		(property "Value" "1kΩ"
 			(at 232.41 28.194 90)
 			(effects
 				(font
@@ -12248,7 +12180,7 @@
 				)
 			)
 		)
-		(property "Value" "240Ω"
+		(property "Value" "1kΩ"
 			(at 273.05 27.178 90)
 			(effects
 				(font
@@ -12656,7 +12588,7 @@
 				)
 			)
 		)
-		(property "Value" "240Ω"
+		(property "Value" "1kΩ"
 			(at 232.41 60.198 90)
 			(effects
 				(font
@@ -13067,7 +12999,7 @@
 				)
 			)
 		)
-		(property "Value" "240Ω"
+		(property "Value" "1kΩ"
 			(at 232.41 94.488 90)
 			(effects
 				(font
@@ -13134,7 +13066,7 @@
 				)
 			)
 		)
-		(property "Value" "240Ω"
+		(property "Value" "1kΩ"
 			(at 273.05 48.768 90)
 			(effects
 				(font
@@ -13201,7 +13133,7 @@
 				)
 			)
 		)
-		(property "Value" "240Ω"
+		(property "Value" "1kΩ"
 			(at 273.05 41.148 90)
 			(effects
 				(font
@@ -13268,7 +13200,7 @@
 				)
 			)
 		)
-		(property "Value" "240Ω"
+		(property "Value" "1kΩ"
 			(at 232.41 67.818 90)
 			(effects
 				(font
@@ -13666,7 +13598,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Nidec_CAS-120A1")
-		(at 60.96 187.96 180)
+		(at 55.88 187.96 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13674,7 +13606,7 @@
 		(dnp no)
 		(uuid "c0432e05-2231-4882-b7ab-03719789c4df")
 		(property "Reference" "SW1"
-			(at 62.992 182.626 0)
+			(at 57.912 182.626 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13683,7 +13615,7 @@
 			)
 		)
 		(property "Value" "SW_Nidec_CAS-120A1"
-			(at 71.374 180.34 0)
+			(at 66.294 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13692,7 +13624,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-3P_1x03_P2.54mm_Horizontal"
-			(at 60.96 177.8 0)
+			(at 55.88 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13701,7 +13633,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.nidec-components.com/e/catalog/switch/cas.pdf"
-			(at 60.96 180.34 0)
+			(at 55.88 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13710,7 +13642,7 @@
 			)
 		)
 		(property "Description" "Switch, single pole double throw"
-			(at 60.96 187.96 0)
+			(at 55.88 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14294,7 +14226,7 @@
 				)
 			)
 		)
-		(property "Value" "240Ω"
+		(property "Value" "1kΩ"
 			(at 232.41 81.788 90)
 			(effects
 				(font
@@ -14430,7 +14362,7 @@
 				)
 			)
 		)
-		(property "Value" "240Ω"
+		(property "Value" "1kΩ"
 			(at 232.41 100.838 90)
 			(effects
 				(font
@@ -14792,7 +14724,7 @@
 	)
 	(symbol
 		(lib_id "Device:Polyfuse")
-		(at 44.45 185.42 90)
+		(at 67.31 187.96 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14800,7 +14732,7 @@
 		(dnp no)
 		(uuid "e6a421fc-cd88-440e-99b5-e85b4fcf6d82")
 		(property "Reference" "F1"
-			(at 44.45 179.07 90)
+			(at 67.31 181.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14808,7 +14740,7 @@
 			)
 		)
 		(property "Value" "MF-R050"
-			(at 44.45 181.61 90)
+			(at 67.31 184.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14816,7 +14748,7 @@
 			)
 		)
 		(property "Footprint" "00a:MF-R050"
-			(at 50.546 185.166 0)
+			(at 73.406 187.706 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14826,7 +14758,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 44.45 185.42 0)
+			(at 67.31 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14835,7 +14767,7 @@
 			)
 		)
 		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
-			(at 44.45 185.42 0)
+			(at 67.31 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -22,7 +22,7 @@
 				)
 			)
 		)
-		(property "Footprint" "00a:941H-2C-12D"
+		(property "Footprint" ""
 			(at 0 0 0)
 			(effects
 				(font
