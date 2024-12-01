@@ -18,3 +18,16 @@ LEDの抵抗値変えたら24V入力もできるかも
 ![image](https://github.com/user-attachments/assets/2731fc39-823f-4fc0-bf06-59285573ca0f)
 パーツ
 https://partscabi.net/list/3c4d911b-a046-48f9-8f62-2c7ad6c0e181
+
+ESP32_SMD_v2.1.0  
+esp32-wroom-32e用の基板です。
+
+仕様　　  
+・圧電スピーカーは0ピン　  
+・CANはTXDが5ピン、RXDが4ピン　　  
+・JP3とJP4はcanの終端抵抗　　  
+・上バー付の数字はPWM可　　  
+・白抜き文字は書き込み中プルアップ　　  
+
+
+![3D ビューアー 2024_12_01 20_32_58](https://github.com/user-attachments/assets/26397bf3-280c-4dcf-a778-d7bd6b0092ba)
