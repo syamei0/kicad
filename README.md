@@ -31,3 +31,5 @@ esp32-wroom-32e用の基板です。
 
 
 ![3D ビューアー 2024_12_01 20_32_58](https://github.com/user-attachments/assets/26397bf3-280c-4dcf-a778-d7bd6b0092ba)
+パーツ(コンデンサー類未入力)
+https://partscabi.net/list/7565f6eb-4755-48bc-bd06-0c08493c0ea4
